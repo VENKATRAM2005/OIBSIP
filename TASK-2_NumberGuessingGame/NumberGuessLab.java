@@ -8,9 +8,9 @@
  * - Leaderboard persisted to 'task2_leaderboard.csv'
  *
  * Compile:
- *   javac NumberGuessLab2.java
+ *   javac NumberGuessLab.java
  * Run:
- *   java NumberGuessLab2
+ *   java NumberGuessLab
  *
  * Works with JDK 8+
  */
@@ -28,7 +28,7 @@ import java.util.*;
 import java.util.List;
 import java.util.stream.*;
 
-public class NumberGuessLab2 {
+public class NumberGuessLab {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new NGGameUI().showUI());
     }
