@@ -1,0 +1,10 @@
+﻿# Local runtime / data files
+examdata.dat
+*.dat
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.class
